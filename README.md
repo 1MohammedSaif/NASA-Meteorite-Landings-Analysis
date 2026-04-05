@@ -32,7 +32,7 @@ The goal of this project was to transform raw NASA data into an intuitive visual
 
 ## 🛠️ Tech Stack & Skills
 * **Visualization Tool:** Power BI Desktop
-* **Dataset:** [NASA Open Data Portal - Meteorite Landings](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh)
+* **Dataset:** [NASA Open Data Portal - Meteorite Landings](https://data.nasa.gov/dataset/meteorite-landings)
 * **Data Transformation:** Power Query (M) for ETL processes.
 * **Calculations:** DAX (Data Analysis Expressions) for dynamic mass conversion and measures.
 
@@ -56,6 +56,6 @@ Before visualization, the raw dataset underwent a rigorous cleaning process in P
 3. Open the file to interact with the live charts.
 
 ---
-**Created by Mohammed Saif Shaikh** *Final Year B.Tech Student in AI & Data Science*
+**Created by Mohammed Saif Shaikh**
 
 Any Questions? Feel free to contact me at ms.sk.3609@gmail.com
