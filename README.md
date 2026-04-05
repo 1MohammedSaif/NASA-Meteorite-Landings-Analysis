@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard exploring over 31,000 extra-terrestrial impacts recorded by NASA. This project focuses on data cleaning, geospatial visualization, and temporal analysis to uncover patterns in how and where meteorites strike Earth.
 
-![Project Preview](screenshots/The Meteorite dashboard Updated.gif) 
+![Project Preview](screenshots/demo.gif) 
 
 ## 📌 Project Overview
 The goal of this project was to transform raw NASA data into an intuitive visual story. It provides insights into the mass distribution of meteorites, the frequency of landings over time (860 AD – 2013), and geographical hotspots using a sleek, dark-themed interface.
