@@ -7,7 +7,7 @@ An interactive Power BI dashboard exploring over 31,000 extra-terrestrial impact
 ##  Project Overview
 The goal of this project was to transform raw NASA data into an intuitive visual story. It provides insights into the mass distribution of meteorites, the frequency of landings over time (860 AD – 2013), and geographical hotspots using a sleek, dark-themed interface.
 
-## 📊 Key Insights & Features
+## Key Insights & Features
 * **Global Impact Heatmap:** A geospatial map categorized by meteorite type (Iron, Stony, Stony-Iron, and Other/Achondrite) with high-density clusters in Europe and North America.
 * **Top 10 Heaviest Meteorites:** A dynamic bar chart highlighting the most massive recorded impacts, featuring data labels for immediate value recognition.
 * **Temporal Trend Analysis:** A line chart identifying a significant spike in recorded landings during the late 20th century.
