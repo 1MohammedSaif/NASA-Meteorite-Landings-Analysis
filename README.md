@@ -1,10 +1,10 @@
-# Cosmic Origins: NASA Meteorite Landings Analysis ☄️
+# Cosmic Origins: NASA Meteorite Landings Analysis 
 
 An interactive Power BI dashboard exploring over 31,000 extra-terrestrial impacts recorded by NASA. This project focuses on data cleaning, geospatial visualization, and temporal analysis to uncover patterns in how and where meteorites strike Earth.
 
 ![Project Preview](screenshots/demo.gif) 
 
-## 📌 Project Overview
+##  Project Overview
 The goal of this project was to transform raw NASA data into an intuitive visual story. It provides insights into the mass distribution of meteorites, the frequency of landings over time (860 AD – 2013), and geographical hotspots using a sleek, dark-themed interface.
 
 ## 📊 Key Insights & Features
@@ -30,13 +30,13 @@ The goal of this project was to transform raw NASA data into an intuitive visual
 * **Cross-Visual Interactivity:** The dashboard uses "Filter" interactions, allowing users to click the Map or Legend to instantly update the Bar Chart and KPI metrics.
 * **Dynamic Slicers:** Fully interactive filters for **Year Range**, **Meteorite Name**, and a custom **"Clear All Slicers"** reset button.
 
-## 🛠️ Tech Stack & Skills
+##  Tech Stack & Skills
 * **Visualization Tool:** Power BI Desktop
 * **Dataset:** [NASA Open Data Portal - Meteorite Landings](https://data.nasa.gov/dataset/meteorite-landings)
 * **Data Transformation:** Power Query (M) for ETL processes.
 * **Calculations:** DAX (Data Analysis Expressions) for dynamic mass conversion and measures.
 
-## 🧹 Data Cleaning & ETL Process
+##  Data Cleaning & ETL Process
 Before visualization, the raw dataset underwent a rigorous cleaning process in Power Query:
 1. **Coordinate Handling:** Filtered out entries with $0,0$ latitude/longitude to ensure map accuracy.
 2. **Date Standardizing:** Extracted and cleaned the 'Year' column from timestamps (860 AD – 2013).
@@ -44,13 +44,13 @@ Before visualization, the raw dataset underwent a rigorous cleaning process in P
 4. **Categorization:** Created a custom column `Meteorite type` to group complex `recclass` values into four simplified categories.
 5. **Geospatial Formatting:** Standardized latitude (`reclat`) and longitude (`reclong`) to ensure precise mapping.
 
-## 📂 Repository Structure
+##  Repository Structure
 * `data/`: Contains the raw and cleaned NASA Meteorite Landings CSV.
 * `report/`: The `.pbix` file (Power BI Dashboard).
 * `screenshots/`: Images and GIFs of the dashboard in action.
 * `README.md`: Project documentation.
 
-## 🚀 How to View the Dashboard
+##  How to View the Dashboard
 1. Download the `NASA_Meteorite_Analysis.pbix` file from the `report/` folder.
 2. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (Free).
 3. Open the file to interact with the live charts.
